@@ -6,12 +6,11 @@ require 'foodie/version'
 Gem::Specification.new do |spec|
   spec.name          = "foodie"
   spec.version       = Foodie::VERSION
-  spec.authors       = ["TODO: Write your name"]
+  spec.authors       = ["Dayana"]
   spec.email         = ["dayanamick@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Write a short summary, because Rubygems requires one.}
+  spec.homepage      = "https://github.com/aydamacink/gemify"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
@@ -28,8 +27,11 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "activesupport", "~> 4.2.0"
+  spec.add_dependency "thor"
 
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.5"
+  spec.add_development_dependency "cucumber"
+  spec.add_development_dependency "aruba"
 end
