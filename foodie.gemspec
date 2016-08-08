@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Dayana"]
   spec.email         = ["dayanamick@gmail.com"]
 
-  spec.summary       = %q{Write a short summary, because Rubygems requires one.}
+  spec.summary       = %q{This is a practice gem that tells you dubious things about broccoli.}
   spec.homepage      = "https://github.com/aydamacink/gemify"
   spec.license       = "MIT"
 
