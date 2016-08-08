@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'foodie/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "foodie"
+  spec.name          = "ariaru-foodie"
   spec.version       = Foodie::VERSION
-  spec.authors       = ["Dayana"]
-  spec.email         = ["dayanamick@gmail.com"]
+  spec.authors       = ["Julian Lachner"]
+  spec.email         = ["ichbindergagok@gmail.com"]
 
   spec.summary       = %q{This is a practice gem that tells you dubious things about broccoli.}
   spec.homepage      = "https://github.com/aydamacink/gemify"
